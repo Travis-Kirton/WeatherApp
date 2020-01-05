@@ -1,8 +1,6 @@
-[![Scc Count Badge](https://sloc.xyz/github/boyter/scc/)](https://git.sdo.jlrmotor.com/Tkirton/weatherappgrads)
+## Weather Web App Project
 
-## Grad Code: PIVI Web App Project
-
-Weather App grad project
+Weather App
 
 Details on React are available here: https://reactjs.org/tutorial/tutorial.html
 
