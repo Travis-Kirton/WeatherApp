@@ -1,0 +1,70 @@
+{
+  "manifest_version": "1.0.0",
+  "version": "0.0.1",
+  "application_type": "web-application",
+  "uuid": "02b75e82-e775-46bb-8f13-228163091a8d",
+  "package_id": "jlr.webapp.kaizen-pivi",
+  "name": "kaizen-pivi",
+  "short_name": "kaizen-pivi",
+  "description": "Kaizen Team Project PIVI App",
+  "icons": [
+    {
+      "src": "src/images/icon.png",
+      "type": "image/png",
+      "purpose": "app-drawer"
+    }
+  ],
+  "start_url": "index.html",
+  "permissions": {
+    "apis": [
+      "phoenix.util",
+      "phoenix.util.Logging",
+      "phoenix.sys.keyboard",
+      "phoenix.sys.keyboard.Keyboard",
+      "phoenix.messaging",
+      "phoenix.messaging.MessagingManager",
+      "phoenix.audio",
+      "phoenix.audio.AudioManager",
+      "phoenix.telephony",
+      "phoenix.telephony.TelephonyManager",
+      "phoenix.oem.jlr.hmi",
+      "phoenix.oem.jlr.hmi.HMIManager",
+      "phoenix.net",
+      "phoenix.net.NetworkManager",
+      "phoenix.sys.persistency",
+      "phoenix.sys.persistency.Persistency",
+      "phoenix.sys.settings",
+      "phoenix.sys.settings.SettingsManager",
+      "phoenix.speech",
+      "phoenix.speech.SpeechSynthesis",
+      "phoenix.sys.input",
+      "phoenix.sys.input.InputManager",
+      "phoenix.intents.Intent",
+      "phoenix.intents.IntentManager",
+      "phoenix.sys.notifications",
+      "phoenix.sys.notifications.NotificationManager",
+      "phoenix.sys.notifications.Notification",
+      "phoenix.media",
+      "phoenix.media.MediaManager",
+      "phoenix.media.MediaSession",
+      "phoenix.wfc.ApplicationManager",
+      "phoenix.wfc.Application",
+      "phoenix.users",
+      "phoenix.users.UserManager",
+      "phoenix.users.User"
+    ],
+    "urls": [
+      "https://feuprod.jlr-sgw.appcarousel.com",
+      "https://feuprod.jlr-secure.appcarousel.com/",
+      "http://jlr.cloud",
+      "https://jlr-public.s3.amazonaws.com",
+      "http://localhost:8000"
+    ]
+  },
+  "autostart": false,
+  "company": "Jaguar Land Rover",
+  "user_profile": true,
+  "visible_in_app_drawer": true,
+  "background": false,
+  "author": "Kaizen Team"
+}
